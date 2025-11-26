@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUZZLE_MODULE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scanline"></div>
+    <div class="crt-overlay"></div>
+
+    <div class="terminal-container">
+        <header class="puzzle-header">
+            <a href="index.html" class="back-link">
+                << RETURN_TO_ROOT</a>
+                    <span id="puzzle-id-display">MODULE_LOADED: ???</span>
+        </header>
+
+        <main id="puzzle-container">
+            <!-- Content injected by JS -->
+            <h1 id="puzzle-title" class="glitch-text">LOADING...</h1>
+
+            <div class="terminal-box">
+                <p id="puzzle-intro" class="typewriter-text"></p>
+            </div>
+
+            <div id="puzzle-media" class="media-area">
+                <!-- Image or PDF link goes here -->
+            </div>
+
+            <div class="input-area">
+                <label for="answer-input">INPUT_ANSWER:></label>
+                <div class="cmd-line">
+                    <input type="text" id="answer-input" autocomplete="off" autofocus>
+                    <button id="submit-btn">EXECUTE</button>
+                </div>
+                <div id="feedback-display" class="feedback-msg"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
