@@ -34,11 +34,11 @@ Na kartce widnieje gigantyczny, skomplikowany labirynt narysowany kredkami.
         title: "SZACHY",
         intro: `Szukając chwili wytchnienia od świątecznego gwaru, zaglądasz do cichego gabinetu Dziadka. W kominku żarzy się ostatnie drewno, a na mahoniowym biurku stoi tajemnicza, metalowa kasetka.
 
-Zamiast zwykłego kluczyka, kasetka posiada skomplikowaną kłódkę cyfrową. Aby ją otworzyć, trzeba wprowadzić aż 17-cyfrowy kod.
+Zamiast zwykłego kluczyka, kasetka posiada skomplikowaną kłódkę cyfrową. Aby ją otworzyć, trzeba wprowadzić aż 20-cyfrowy kod.
 
 Obok kasetki leży rozłożona szachownica oraz pożółkły notatnik z narysowanymi diagramami sytuacji na planszy. Na pierwszej stronie widnieje odręczny dopisek Dziadka:
 
-„Pamiętaj, moje dziecko, świat jest jak szachownica. Wszystko zamyka się w magicznej liczbie 64. To ona wyznacza granice, ale to Twój spryt decyduje o zwycięstwie.”
+„Pamiętaj, moje dziecko, świat jest jak szachownica. Wszystko leży u *podstawy* 64. To ona wyznacza granice, ale to Twój spryt decyduje o zwycięstwie.”
 
 Liczba 64 wydaje się tutaj kluczowa – to liczba pól na szachownicy, ale Dziadek wyraźnie zaznaczył ją w tekście grubą kreską, jakby chciał, żebyś o niej nie zapomniał podczas rozwiązywania zagadki.
 
@@ -52,7 +52,7 @@ Przeglądasz notatnik. Każda strona to inna sytuacja szachowa, w której musisz
         <div style="text-align: center; margin-top: 10px;">
             <a href="https://en.wikipedia.org/wiki/Algebraic_notation_(chess)" target="_blank" style="color: #4CAF50; text-decoration: underline;">Szachowa notacja algebraiczna</a>
         </div>`,
-        answers: ["34765870150989167"],
+        answers: ["30561331591032532756"],
         explanation: "Kod otworzył kasetkę! W środku znajdujesz stary list i zdjęcie."
     },
     4: {
